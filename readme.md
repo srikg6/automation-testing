@@ -15,14 +15,13 @@ verify whether the billing address details saved are being reflected same
 verify whether the user is able to save the shipping address without entering all the mandatory fields
 verify whether the user is able to save the shipping address after entering all the mandatory fields
 verify whether the shipping address details saved are being reflected same
+
+# ********** Clubbed both the below tests in a single test
 verify whether the user is able to add the products to the cart from the shopping page
 verify whether the user is able to delete the products from the cart
 
 # Tests that are not automated
 verify the address details are updated properly
-test_delete_products_from_cart() needs to be tested which is under test_products.py file
-
-
 
 # *** Commands to be executed for running the testcase ****
 Note: move to the directory under which the tests are present inorder to execute the tests present under the directory and its subdirectories
@@ -45,3 +44,4 @@ pytest -v tests/test_registration_sign_in.py --html=reports/report.html --self-c
 modify email - "testuser12345_13@example.com" in test_registration_sign_in.py file to register a new account
 else it will fail.
 
+"# automation-testing" 
