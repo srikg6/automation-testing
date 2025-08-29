@@ -1,0 +1,29 @@
+2025-08-29 17:08:16 - INFO - ===== Test Started: tests/test_products.py::test_add_products_to_cart =====
+2025-08-29 17:08:16 - INFO - Launching browser...
+2025-08-29 17:08:21 - INFO - Successfully launched the url
+2025-08-29 17:08:28 - ERROR - An exception occured: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=139.0.7258.139)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff694df3d85+79397]
+	GetHandleVerifier [0x0x7ff694df3de0+79488]
+	(No symbol) [0x0x7ff694b9c0fa]
+	(No symbol) [0x0x7ff694bf2d9e]
+	(No symbol) [0x0x7ff694bf328c]
+	(No symbol) [0x0x7ff694c46537]
+	(No symbol) [0x0x7ff694c1b1df]
+	(No symbol) [0x0x7ff694c43344]
+	(No symbol) [0x0x7ff694c1af73]
+	(No symbol) [0x0x7ff694be41b1]
+	(No symbol) [0x0x7ff694be4f43]
+	GetHandleVerifier [0x0x7ff6950be1ed+3005069]
+	GetHandleVerifier [0x0x7ff6950b831d+2980797]
+	GetHandleVerifier [0x0x7ff6950d7e0d+3110573]
+	GetHandleVerifier [0x0x7ff694e0d6de+184190]
+	GetHandleVerifier [0x0x7ff694e1516f+215567]
+	GetHandleVerifier [0x0x7ff694dfc974+115220]
+	GetHandleVerifier [0x0x7ff694dfcb29+115657]
+	GetHandleVerifier [0x0x7ff694de3268+11016]
+	BaseThreadInitThunk [0x0x7ffaae947374+20]
+	RtlUserThreadStart [0x0x7ffaaec1cc91+33]
+
+2025-08-29 17:08:29 - INFO - Quitting browser...
