@@ -31,13 +31,12 @@ def test_registration_sign_in_with_valid_email_password(driver):
         my_account.click_register_button(True)
         logging.info("Successfully clicked on the Register button")
         # 6) Wait until navigation / logout link appears
-        ele = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(my_account.loc_logout_link)
-        )
+        ele = my_account.loc_logout_link()
         # 7) Assert successful registration
-        assert ele.is_displayed() is True, \
-            "Login with valid email and password is not successful"
-        logging.info("Successfully verified the logout link")
+        if ele.is_displayed() is True:
+            logging.info("Successfully verified the logout link")
+        else:
+            raise "Failed to verify the logout link"
     except Exception as ex:
         logging.error(f"An error occurred in "
                           f"{test_registration_sign_in_with_valid_email_password.__name__} function: \n%s", ex)
