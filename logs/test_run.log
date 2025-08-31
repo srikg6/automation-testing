@@ -1,100 +1,99 @@
-2025-08-30 00:51:41 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_sign_in_with_valid_email_password =====
-2025-08-30 00:51:41 - INFO - Launching browser...
-2025-08-30 00:51:45 - INFO - Successfully launched the url
-2025-08-30 00:51:47 - INFO - Clicked on my account link successfully
-2025-08-30 00:51:47 - INFO - Entered the email successfully
-2025-08-30 00:51:47 - INFO - Entered the password successfully
-2025-08-30 00:51:49 - INFO - Successfully clicked on the Register button
-2025-08-30 00:51:59 - ERROR - An error occurred in test_registration_sign_in_with_valid_email_password function: 
+2025-08-31 09:39:18 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_sign_in_with_valid_email_password =====
+2025-08-31 09:39:18 - INFO - Launching browser...
+2025-08-31 09:39:25 - INFO - Successfully launched the url
+2025-08-31 09:39:27 - INFO - Clicked on my account link successfully
+2025-08-31 09:39:27 - INFO - Entered the email successfully
+2025-08-31 09:39:27 - INFO - Entered the password successfully
+2025-08-31 09:39:29 - INFO - Successfully clicked on the Register button
+2025-08-31 09:39:39 - ERROR - An error occurred in test_registration_sign_in_with_valid_email_password function: 
 Message: 
 Stacktrace:
-	GetHandleVerifier [0x0x7ff68d773d85+79397]
-	GetHandleVerifier [0x0x7ff68d773de0+79488]
-	(No symbol) [0x0x7ff68d51c0fa]
-	(No symbol) [0x0x7ff68d572fd6]
-	(No symbol) [0x0x7ff68d57328c]
-	(No symbol) [0x0x7ff68d5c6537]
-	(No symbol) [0x0x7ff68d59b1df]
-	(No symbol) [0x0x7ff68d5c3344]
-	(No symbol) [0x0x7ff68d59af73]
-	(No symbol) [0x0x7ff68d5641b1]
-	(No symbol) [0x0x7ff68d564f43]
-	GetHandleVerifier [0x0x7ff68da3e1ed+3005069]
-	GetHandleVerifier [0x0x7ff68da3831d+2980797]
-	GetHandleVerifier [0x0x7ff68da57e0d+3110573]
-	GetHandleVerifier [0x0x7ff68d78d6de+184190]
-	GetHandleVerifier [0x0x7ff68d79516f+215567]
-	GetHandleVerifier [0x0x7ff68d77c974+115220]
-	GetHandleVerifier [0x0x7ff68d77cb29+115657]
-	GetHandleVerifier [0x0x7ff68d763268+11016]
+	GetHandleVerifier [0x0x7ff790153d85+79397]
+	GetHandleVerifier [0x0x7ff790153de0+79488]
+	(No symbol) [0x0x7ff78fefc0fa]
+	(No symbol) [0x0x7ff78ff52fd6]
+	(No symbol) [0x0x7ff78ff5328c]
+	(No symbol) [0x0x7ff78ffa6537]
+	(No symbol) [0x0x7ff78ff7b1df]
+	(No symbol) [0x0x7ff78ffa3344]
+	(No symbol) [0x0x7ff78ff7af73]
+	(No symbol) [0x0x7ff78ff441b1]
+	(No symbol) [0x0x7ff78ff44f43]
+	GetHandleVerifier [0x0x7ff79041e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79041831d+2980797]
+	GetHandleVerifier [0x0x7ff790437e0d+3110573]
+	GetHandleVerifier [0x0x7ff79016d6de+184190]
+	GetHandleVerifier [0x0x7ff79017516f+215567]
+	GetHandleVerifier [0x0x7ff79015c974+115220]
+	GetHandleVerifier [0x0x7ff79015cb29+115657]
+	GetHandleVerifier [0x0x7ff790143268+11016]
 	BaseThreadInitThunk [0x0x7ffaae947374+20]
 	RtlUserThreadStart [0x0x7ffaaec1cc91+33]
 
-2025-08-30 00:51:59 - INFO - Quitting browser...
-2025-08-30 00:52:01 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_invalid_email_valid_password =====
-2025-08-30 00:52:01 - INFO - Launching browser...
-2025-08-30 00:52:06 - INFO - Successfully launched the url
-2025-08-30 00:52:07 - INFO - Clicked on my account link successfully
-2025-08-30 00:52:08 - INFO - Entered the email successfully
-2025-08-30 00:52:08 - INFO - Entered the password successfully
-2025-08-30 00:52:09 - INFO - Successfully clicked on the Register button
-2025-08-30 00:52:24 - INFO - Quitting browser...
-2025-08-30 00:52:26 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_valid_email_invalid_password =====
-2025-08-30 00:52:27 - INFO - Launching browser...
-2025-08-30 00:52:31 - INFO - Successfully launched the url
-2025-08-30 00:52:33 - INFO - Clicked on my account link successfully
-2025-08-30 00:52:33 - INFO - Entered the email successfully
-2025-08-30 00:52:33 - INFO - Entered the password successfully
-2025-08-30 00:52:33 - INFO - Successfully clicked on the Register button
-2025-08-30 00:52:33 - INFO - Quitting browser...
-2025-08-30 00:52:36 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_blank_email_and_password =====
-2025-08-30 00:52:36 - INFO - Launching browser...
-2025-08-30 00:52:40 - INFO - Successfully launched the url
-2025-08-30 00:52:41 - INFO - Clicked on my account link successfully
-2025-08-30 00:52:42 - INFO - Entered the email successfully
-2025-08-30 00:52:42 - INFO - Entered the password successfully
-2025-08-30 00:52:42 - INFO - Quitting browser...
-2025-08-30 00:52:44 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_invalid_email_and_password =====
-2025-08-30 00:52:44 - INFO - Launching browser...
-2025-08-30 00:52:48 - INFO - Successfully launched the url
-2025-08-30 00:52:50 - INFO - Clicked on my account link successfully
-2025-08-30 00:52:50 - INFO - Entered the email successfully
-2025-08-30 00:52:50 - INFO - Entered the password successfully
-2025-08-30 00:52:50 - INFO - Register button is in disabled mode
-2025-08-30 00:52:50 - INFO - Quitting browser...
-2025-08-30 00:52:53 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_valid_email_password =====
-2025-08-30 00:52:53 - INFO - Launching browser...
-2025-08-30 00:52:57 - INFO - Successfully launched the url
-2025-08-30 00:52:58 - INFO - Clicked on my account link successfully
-2025-08-30 00:52:59 - INFO - Successfully entered the credentials and logged in
-2025-08-30 00:53:00 - ERROR - An error occurred in test_login_with_valid_email_password function: 
-selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not bool
-2025-08-30 00:53:00 - INFO - Quitting browser...
-2025-08-30 00:53:03 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_invalid_email_valid_password =====
-2025-08-30 00:53:03 - INFO - Launching browser...
-2025-08-30 00:53:07 - INFO - Successfully launched the url
-2025-08-30 00:53:08 - INFO - Clicked on my account link successfully
-2025-08-30 00:53:10 - INFO - Successfully entered the credentials and logged in
-2025-08-30 00:53:15 - INFO - Successfully verified the displayed
-2025-08-30 00:53:15 - INFO - Quitting browser...
-2025-08-30 00:53:19 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_valid_email_invalid_password =====
-2025-08-30 00:53:19 - INFO - Launching browser...
-2025-08-30 00:53:24 - INFO - Successfully launched the url
-2025-08-30 00:53:25 - INFO - Clicked on my account link successfully
-2025-08-30 00:53:27 - INFO - Successfully entered the credentials and logged in
-2025-08-30 00:53:32 - INFO - Successfully verified the error message displayed
-2025-08-30 00:53:32 - INFO - Quitting browser...
-2025-08-30 00:53:34 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_blank_email_blank_password =====
-2025-08-30 00:53:34 - INFO - Launching browser...
-2025-08-30 00:53:38 - INFO - Successfully launched the url
-2025-08-30 00:53:40 - INFO - Clicked on my account link successfully
-2025-08-30 00:53:42 - INFO - Successfully entered the credentials and logged in
-2025-08-30 00:53:47 - INFO - Successfully verified the error message displayed
-2025-08-30 00:53:47 - INFO - Quitting browser...
-2025-08-30 00:53:49 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_invalid_email_invalid_password =====
-2025-08-30 00:53:49 - INFO - Launching browser...
-2025-08-30 00:53:54 - INFO - Successfully launched the url
-2025-08-30 00:53:55 - INFO - Clicked on my account link successfully
-2025-08-30 00:53:57 - INFO - Successfully entered the credentials and logged in
-2025-08-30 00:54:02 - INFO - Successfully verified the error message displayed
-2025-08-30 00:54:02 - INFO - Quitting browser...
+2025-08-31 09:39:39 - INFO - Quitting browser...
+2025-08-31 09:39:42 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_invalid_email_valid_password =====
+2025-08-31 09:39:42 - INFO - Launching browser...
+2025-08-31 09:39:47 - INFO - Successfully launched the url
+2025-08-31 09:39:49 - INFO - Clicked on my account link successfully
+2025-08-31 09:39:49 - INFO - Entered the email successfully
+2025-08-31 09:39:49 - INFO - Entered the password successfully
+2025-08-31 09:39:50 - INFO - Successfully clicked on the Register button
+2025-08-31 09:40:06 - INFO - Quitting browser...
+2025-08-31 09:40:08 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_valid_email_invalid_password =====
+2025-08-31 09:40:08 - INFO - Launching browser...
+2025-08-31 09:40:12 - INFO - Successfully launched the url
+2025-08-31 09:40:14 - INFO - Clicked on my account link successfully
+2025-08-31 09:40:15 - INFO - Entered the email successfully
+2025-08-31 09:40:15 - INFO - Entered the password successfully
+2025-08-31 09:40:15 - INFO - Successfully clicked on the Register button
+2025-08-31 09:40:15 - INFO - Quitting browser...
+2025-08-31 09:40:18 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_blank_email_and_password =====
+2025-08-31 09:40:18 - INFO - Launching browser...
+2025-08-31 09:40:20 - INFO - Successfully launched the url
+2025-08-31 09:40:46 - INFO - Clicked on my account link successfully
+2025-08-31 09:40:46 - INFO - Entered the email successfully
+2025-08-31 09:40:46 - INFO - Entered the password successfully
+2025-08-31 09:40:46 - INFO - Quitting browser...
+2025-08-31 09:40:49 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_registration_with_invalid_email_and_password =====
+2025-08-31 09:40:49 - INFO - Launching browser...
+2025-08-31 09:40:56 - INFO - Successfully launched the url
+2025-08-31 09:40:58 - INFO - Clicked on my account link successfully
+2025-08-31 09:40:58 - INFO - Entered the email successfully
+2025-08-31 09:40:59 - INFO - Entered the password successfully
+2025-08-31 09:40:59 - INFO - Register button is in disabled mode
+2025-08-31 09:40:59 - INFO - Quitting browser...
+2025-08-31 09:41:01 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_valid_email_password =====
+2025-08-31 09:41:01 - INFO - Launching browser...
+2025-08-31 09:41:05 - INFO - Successfully launched the url
+2025-08-31 09:41:07 - INFO - Clicked on my account link successfully
+2025-08-31 09:41:11 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:41:11 - INFO - Successfully verified the logout link
+2025-08-31 09:41:11 - INFO - Quitting browser...
+2025-08-31 09:41:14 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_invalid_email_valid_password =====
+2025-08-31 09:41:14 - INFO - Launching browser...
+2025-08-31 09:41:19 - INFO - Successfully launched the url
+2025-08-31 09:41:20 - INFO - Clicked on my account link successfully
+2025-08-31 09:41:22 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:41:27 - INFO - Successfully verified the displayed
+2025-08-31 09:41:27 - INFO - Quitting browser...
+2025-08-31 09:41:32 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_valid_email_invalid_password =====
+2025-08-31 09:41:32 - INFO - Launching browser...
+2025-08-31 09:41:37 - INFO - Successfully launched the url
+2025-08-31 09:41:39 - INFO - Clicked on my account link successfully
+2025-08-31 09:41:39 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:41:44 - INFO - Successfully verified the error message displayed
+2025-08-31 09:41:44 - INFO - Quitting browser...
+2025-08-31 09:41:47 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_blank_email_blank_password =====
+2025-08-31 09:41:47 - INFO - Launching browser...
+2025-08-31 09:41:51 - INFO - Successfully launched the url
+2025-08-31 09:41:53 - INFO - Clicked on my account link successfully
+2025-08-31 09:41:54 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:42:00 - INFO - Successfully verified the error message displayed
+2025-08-31 09:42:00 - INFO - Quitting browser...
+2025-08-31 09:42:02 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_invalid_email_invalid_password =====
+2025-08-31 09:42:02 - INFO - Launching browser...
+2025-08-31 09:42:07 - INFO - Successfully launched the url
+2025-08-31 09:42:09 - INFO - Clicked on my account link successfully
+2025-08-31 09:42:11 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:42:16 - INFO - Successfully verified the error message displayed
+2025-08-31 09:42:16 - INFO - Quitting browser...

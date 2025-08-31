@@ -171,11 +171,10 @@ def test_login_with_valid_email_password(driver):
             logging.info("Successfully entered the credentials and logged in")
 
         # 6) Wait until navigation / logout link appears
-        ele = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(my_account.is_logout_link_displayed())
-        )
+        ele = my_account.is_logout_link_displayed()
+        print("************", ele)
         # 7) Assert successful registration
-        assert ele.is_displayed() is True, \
+        assert ele is True, \
             "Login with valid email and password is not successful"
         logging.info("Successfully verified the logout link")
     except Exception as ex:

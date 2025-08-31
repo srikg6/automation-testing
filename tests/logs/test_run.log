@@ -1,7 +1,7 @@
-2025-08-30 00:44:48 - INFO - ===== Test Started: tests/test_products.py::test_add_products_to_cart =====
-2025-08-30 00:44:48 - INFO - Launching browser...
-2025-08-30 00:44:53 - INFO - Successfully launched the url
-2025-08-30 00:45:01 - INFO - Successfully added the book
-2025-08-30 00:45:05 - INFO - Successfully clicked on the cart and verified the book
-2025-08-30 00:45:08 - INFO - Successfully removed the item from the cart
-2025-08-30 00:45:08 - INFO - Quitting browser...
+2025-08-31 09:37:10 - INFO - ===== Test Started: tests/test_registration_sign_in.py::test_login_with_valid_email_password =====
+2025-08-31 09:37:10 - INFO - Launching browser...
+2025-08-31 09:37:14 - INFO - Successfully launched the url
+2025-08-31 09:37:15 - INFO - Clicked on my account link successfully
+2025-08-31 09:37:17 - INFO - Successfully entered the credentials and logged in
+2025-08-31 09:37:17 - INFO - Successfully verified the logout link
+2025-08-31 09:37:17 - INFO - Quitting browser...
