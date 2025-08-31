@@ -13,8 +13,8 @@ class ShopPage:
     # === Locators ===
     loc_selenium_link = (By.LINK_TEXT, "selenium")
     loc_add_to_basket_btn = (By.XPATH, "//*[@id='content']/ul/li/a[2]")
-    loc_shopping_cart = (By.ID, "wpmenucartli")
-    loc_product_name = (By.CSS_SELECTOR, ".product-name > a")
+    loc_shopping_cart = (By.XPATH, "//nav[@id='main-nav-wrap']/ul/li[6]")
+    loc_product_name = (By.XPATH, "//a[contains(text(), 'Selenium Ruby')]")
     loc_delete_btn = (By.CSS_SELECTOR, "form > table > tbody > tr.cart_item > td.product-remove > a")
     loc_remove_book_btn = (By.XPATH, "//*[@id='page-34']/div/div[1]/form/table/tbody/tr[1]/td[3]/preceding-sibling::td/a")
     loc_book_count = (By.XPATH, "//*[@id='wpmenucartli']/a/span[1]")
@@ -26,15 +26,16 @@ class ShopPage:
         self.wait.until(EC.presence_of_element_located(self.loc_add_to_basket_btn)).click()
 
     def click_shopping_cart(self, exp):
-        self.driver.find_element(*self.loc_shopping_cart).click()
-        time.sleep(3)
-        val = self.driver.find_element(*self.loc_product_name).text
+        ele = self.wait.until(EC.presence_of_element_located(self.loc_shopping_cart))
+        ele.click()
+        # time.sleep(5)
+        val = self.wait.until(EC.presence_of_element_located(self.loc_product_name)).text
         assert exp == val, "The bok added to the cart is not matched."
 
     def remove_item_from_cart(self):
         self.driver.find_element(*self.loc_remove_book_btn).click()
         time.sleep(3)
-        count = self.wait.until(EC.presence_of_element_located(self.loc_book_count)).text
+        count = self.wait.until(EC.presence_of_element_located(*self.loc_book_count)).text
         assert count == "0 Items", "Item not removed from the cart"
 
 
