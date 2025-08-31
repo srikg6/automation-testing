@@ -23,7 +23,7 @@
 # Tests that are not automated
 - verify the address details are updated properly
 
-# *** Commands to be executed for running the testcase ****
+# Commands to be executed for running the testcase
 Note: move to the directory under which the tests are present inorder to execute the tests present under the directory and its subdirectories
 
 - pytest -v --html=reports/report.html --self-contained-html
